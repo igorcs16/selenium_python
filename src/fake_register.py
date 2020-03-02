@@ -126,10 +126,3 @@ class RegisterGmail:
         self.driver.quit()
         
         return ret        
-
-if __name__ == '__main__':
-    fake = SavePage()
-    fake.get_data()
-
-    gmail = RegisterGmail()
-    gmail.register()
